@@ -1,0 +1,154 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+$primary-color:rgba(43, 248, 214, 0.829);
+$secondary-color:rgb(3, 0, 44);
+$breakpoint-tablet: 1110px;
+@media (max-width: $breakpoint-tablet) {
+    .container-fluid{
+        width: 70rem;
+    }
+    .alert{
+        width: 70rem;
+    }
+
+    
+   
+    
+  
+}
+.alert{
+    margin: 0rem;
+    text-align: center;
+     background-color: $primary-color;
+      a{
+        color: black;
+        text-decoration: none;
+        
+      }
+    
+}
+    
+   .container-fluid{
+    .buy-sell{
+        display: flex;
+        img{
+            opacity: 0.1;
+            transform: rotate(20deg);
+            margin-left: 2rem;
+        }
+    }
+    
+    
+       color: white;
+       padding: 4rem;
+       background-color: $secondary-color;
+       h2{
+           font-size: 2.5rem;
+           padding-bottom: 1rem;
+           
+       }
+       p{
+           font-size: 1.5rem;
+           padding-top: 1rem;
+           
+       }
+       button{
+           border-radius: 2rem;
+           font-style: oblique;
+           margin-top: 2rem;
+           padding: 1rem 5rem;
+           font-size: 2rem;
+           margin-left: auto;
+           background-color: $secondary-color;
+           color: $primary-color;
+           box-shadow: inset 0px 0px 20px 10px $primary-color ;
+           &:hover{
+               color: $primary-color;
+               background-color: $secondary-color;
+               box-shadow: inset 0px 0px 20px 4px $primary-color;
+               font-size: 1.95rem;
+           }
+           
+    
+        
+       }
+   }
+   .market-trends{
+       padding: 2rem;
+       background-color: rgb(36, 36, 66);
+       margin-top:5rem;
+    margin-left: -4rem;
+    margin-right: -4rem;
+       h2{
+           font-size: 2.5rem;
+           
+       }
+      
+       .coins-name{
+           .heading{
+               display: flex;
+               justify-content: space-between;
+               
+          
+          .name{
+              width: 34.625rem;
+              
+          }  }
+        p{
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+        }
+           
+           .coins{
+              
+               padding-bottom: 1rem;
+            margin: 3rem 0 ;
+            
+               .bitcoin{
+                   cursor: pointer;
+                   padding-bottom: 2rem;
+                   padding-top: 1rem;
+               display: flex;
+               justify-content: space-between;
+               border-bottom: 1px solid $primary-color;
+               .logo{
+                   display: flex;
+                   img{
+                    width: 10%;
+                   
+                }
+                h5{
+                    margin: auto 1rem;
+                    font-size: 1.5rem;
+                }
+               
+               }
+              
+              .last-price{
+               margin-top: auto;
+               margin-bottom: auto;
+               font-size: 1.5rem;
+               }
+               .hr-change{
+                margin-top: auto;
+                margin-bottom: auto;
+color: $primary-color;          
+font-size: 1.5rem;   
+ }
+               
+               
+            
+            }
+           }
+
+       }
+       
+   }
+   .view-more{
+     
+       cursor: pointer;
+       text-align: center;
+       
+   }
+

@@ -1,0 +1,52 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+$breakpoint-tablet: 1100px;
+@media (max-width: $breakpoint-tablet) {
+    .container-fluid{
+        width: 70rem;
+    }
+}
+.footer{
+    display: flex;
+    margin-top: 5rem;
+    gap: 7rem;
+
+}
+.community{
+ 
+  
+    .social{
+        display: flex;
+      padding-top: 1.5rem;
+     
+
+    }
+    img{
+        cursor: pointer;
+        width: 2rem;
+        margin: 1rem;
+        margin-left: 0;
+        &:hover{
+            width: 3rem;
+        }
+        
+    
+    }
+}
+.about{
+    h5{
+white-space: nowrap;
+
+    }
+    ul{
+    list-style:none ;
+    padding: 0;
+a{
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    font-weight: 100;
+}
+}
+
+}

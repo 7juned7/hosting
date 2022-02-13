@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1100px) {
+  .container-fluid {
+    width: 70rem;
+  }
+}
+.footer {
+  display: flex;
+  margin-top: 5rem;
+  gap: 7rem;
+}
+
+.community .social {
+  display: flex;
+  padding-top: 1.5rem;
+}
+.community img {
+  cursor: pointer;
+  width: 2rem;
+  margin: 1rem;
+  margin-left: 0;
+}
+.community img:hover {
+  width: 3rem;
+}
+
+.about h5 {
+  white-space: nowrap;
+}
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+.about ul a {
+  text-decoration: none;
+  color: #acacac;
+  font-weight: 100;
+}/*# sourceMappingURL=footer.css.map */

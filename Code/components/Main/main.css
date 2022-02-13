@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1110px) {
+  .container-fluid {
+    width: 70rem;
+  }
+
+  .alert {
+    width: 70rem;
+  }
+}
+.alert {
+  margin: 0rem;
+  text-align: center;
+  background-color: rgba(43, 248, 214, 0.829);
+}
+.alert a {
+  color: black;
+  text-decoration: none;
+}
+
+.container-fluid {
+  color: white;
+  padding: 4rem;
+  background-color: #03002c;
+}
+.container-fluid .buy-sell {
+  display: flex;
+}
+.container-fluid .buy-sell img {
+  opacity: 0.1;
+  transform: rotate(20deg);
+  margin-left: 2rem;
+}
+.container-fluid h2 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+.container-fluid p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+.container-fluid button {
+  border-radius: 2rem;
+  font-style: oblique;
+  margin-top: 2rem;
+  padding: 1rem 5rem;
+  font-size: 2rem;
+  margin-left: auto;
+  background-color: #03002c;
+  color: rgba(43, 248, 214, 0.829);
+  box-shadow: inset 0px 0px 20px 10px rgba(43, 248, 214, 0.829);
+}
+.container-fluid button:hover {
+  color: rgba(43, 248, 214, 0.829);
+  background-color: #03002c;
+  box-shadow: inset 0px 0px 20px 4px rgba(43, 248, 214, 0.829);
+  font-size: 1.95rem;
+}
+
+.market-trends {
+  padding: 2rem;
+  background-color: #242442;
+  margin-top: 5rem;
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+.market-trends h2 {
+  font-size: 2.5rem;
+}
+.market-trends .coins-name .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.market-trends .coins-name .heading .name {
+  width: 34.625rem;
+}
+.market-trends .coins-name p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.market-trends .coins-name .coins {
+  padding-bottom: 1rem;
+  margin: 3rem 0;
+}
+.market-trends .coins-name .coins .bitcoin {
+  cursor: pointer;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(43, 248, 214, 0.829);
+}
+.market-trends .coins-name .coins .bitcoin .logo {
+  display: flex;
+}
+.market-trends .coins-name .coins .bitcoin .logo img {
+  width: 10%;
+}
+.market-trends .coins-name .coins .bitcoin .logo h5 {
+  margin: auto 1rem;
+  font-size: 1.5rem;
+}
+.market-trends .coins-name .coins .bitcoin .last-price {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5rem;
+}
+.market-trends .coins-name .coins .bitcoin .hr-change {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: rgba(43, 248, 214, 0.829);
+  font-size: 1.5rem;
+}
+
+.view-more {
+  cursor: pointer;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
